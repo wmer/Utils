@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 
-namespace HqDownloadManager.Utils {
+namespace Utils {
     public static class ByteConverter {
         public static byte[] ToBytes(this object obj) {
             return Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(obj));

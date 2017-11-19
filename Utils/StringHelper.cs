@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HqDownloadManager.Utils {
+namespace Utils {
     public class StringHelper {
         public static string RemoveSpecialCharacters(String str) {
             StringBuilder sb = new StringBuilder();

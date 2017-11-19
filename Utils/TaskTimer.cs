@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace HqDownloadManager.Utils {
+namespace Utils {
     public class TaskTimer {
         public TimeSpan RuntimeOf(Action method) {
             var watch = Stopwatch.StartNew();
